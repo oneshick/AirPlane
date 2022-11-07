@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221108041717">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<div class="page__container">
+				<div class="page__item item_page">
+					<div class="video">
+						<video id="fon" rel="preload" muted src="img/video.mp4"></video>
+					</div>
+					<div class="block1">
+						<div class="wrapper1">
+							<div class="item__content">
+								<div class="content__circle content__circle-1" id="test">
+									<div class="placeholder-1">GEAR/FIRE<br>TEST</div>
+								</div>
+								<div class="content__circle content__circle-2 content__circle_green">
+									<div class="placeholder">NOSE</div>
+								</div>
+							</div>
+							<div class="item__content">
+								<div class="content__circle content__circle-3">
+									<div class="placeholder">UNSAFE</div>
+								</div>
+								<div class="content__circle content__circle_green content__circle-4">
+									<div class="placeholder">LEFT</div>
+								</div>
+								<div class="content__circle content__circle_green content__circle-5">
+									<div class="placeholder">RIGHT</div>
+								</div>
+							</div>
+							<div class="item__content content-item">
+								<div class="line"></div>
+								<h3>LANDING GEAR</h3>
+								<div class="line1"></div>
+								<div>
+									<span>V<sub>LC</sub>V<sub>LOC</sub>=188 KIAS</span> <br>
+									<span class="formul">V<sub>LOR</sub>=152 KIAS</span>
+								</div>
+							</div>
+						</div>
+						<div class="switch">
+							<span class="switch__span-1">UP</span>
+							<input id="checkbox" class="checkbox" type="checkbox">
+							<span class="switch__span-2">DOWN</span>
+						</div>
+					</div>
+				</div>
+				<div class="page__item item_page-1">
+					<div class="page__image-ibg">
+						<picture><source srcset="img/panel.webp" type="image/webp"><img src="img/panel.png" alt=""></picture>
+						<div class="circle nose-circle"></div>
+						<div class="circle left-circle"></div>
+						<div class="circle right-circle"></div>
+						<div class="circle unsafe-circle"></div>
+
+						<div class="box">
+							<div class="box__circle circle__box-1"></div>
+							<div class="box__circle circle__box-2"></div>
+							<div class="box__circle circle__box-3"></div>
+						</div>
+						<div class="box__p2">
+							<div class="box__circle p2__box-1"></div>
+							<div class="box__circle p2__box-2" id="p2"></div>
+							<div class="box__circle p2__box-3"></div>
+						</div>
+						<div class="box__r8">
+							<div class="box__circle box__nose-1"></div>
+							<div class="box__circle box__nose-2"></div>
+							<div class="box__circle box__nose-3" id="r8"></div>
+						</div>
+
+						<span class="nose-released  text">Носовая опора выпущена</span>
+						<div class="box__nose">
+							<div class="box__circle box__nose-1"></div>
+							<div class="box__circle box__nose-2"></div>
+							<div class="box__circle box__nose-3" id="nose"></div>
+						</div>
+						<span class="left-released  text">Левая опора выпущена</span>
+						<div class="box__left">
+							<div class="box__circle box__nose-1"></div>
+							<div class="box__circle box__nose-2"></div>
+							<div class="box__circle box__nose-3" id="left"></div>
+						</div>
+						<span class="right-released text">Правая опора выпущена</span>
+						<div class="box__right">
+							<div class="box__circle box__nose-1"></div>
+							<div class="box__circle box__nose-2"></div>
+							<div class="box__circle box__nose-3" id="right"></div>
+						</div>
+
+						<span class="nose-removed  text">Носовая опора <br> убрана</span>
+						<div class="removed__nose">
+							<div class="box__circle removed__nose-1"></div>
+							<div class="box__circle removed__nose-2"></div>
+							<div class="box__circle removed__nose-3" id="removed__nose"></div>
+						</div>
+						<span class="left-removed  text">Левая опора <br> убрана</span>
+						<div class="removed__left">
+							<div class="box__circle removed__nose-1"></div>
+							<div class="box__circle removed__nose-2"></div>
+							<div class="box__circle removed__nose-3" id="removed__left"></div>
+						</div>
+						<span class="right-removed text">Правая опора <br> убрана</span>
+						<div class="removed__right">
+							<div class="box__circle removed__nose-1"></div>
+							<div class="box__circle removed__nose-2"></div>
+							<div class="box__circle removed__nose-3" id="removed__right"></div>
+						</div>
+						<div class="kv1">
+							<div class="box__circle kv1-1"></div>
+							<div class="box__circle kv1-2"></div>
+							<div class="box__circle kv1-3" id="kv1"></div>
+						</div>
+						<div class="kv9">
+							<div class="box__circle kv9-1"></div>
+							<div class="box__circle kv9-2"></div>
+							<div class="box__circle kv9-3" id="kv3"></div>
+						</div>
+						<span class="solenoid text">Соленоид <br> уборки</span>
+						<span class="solenoid-2 text">Соленоид <br> выпуска</span>
+					</div>
+				</div>
+				<div class="page__item item__video">
+					<h1 class="op">Носовая опора шасси</h1>
+					<video id="video1" rel="preload" muted>
+						<source src="img/1.mp4" type="">
+					</video>
+					<video id="video2" rel="preload" muted>
+						<source src="img/2.mp4" type="">
+					</video>
+					<h1 class="os">Основая опора шасси</h1>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20221108041717"></script>
+</body>
+
+</html>
